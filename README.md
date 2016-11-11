@@ -1,3 +1,18 @@
+How to run:
+
+1. Download the code and go to the main code directory.
+2. Type "./run.sh" in Terminal
+3. You can modify the run.sh file as needed. The java program needs 6 command line arguments.
+	1. batch payment filename
+	2. stream payment filename
+	3. out1 filename
+	4. out2 filename
+	5. out3 filename
+	6. flag for updating the data structure(graph) using stream payment file. There are 2 cases:
+		1. First where every transaction in the stream file is considered valid if it is trusted(4th degree friend or lower) and thus you will update the graph using this transaction. The flag should be true in this case.
+		2. Second case is when you do not want to update the graph using the streaming file transactions and just want to view what will be the output of every transaction with respect to the old batch payment file. The flag should be false in this case.
+
+
 # Table of Contents
 
 1. [Challenge Summary] (README.md#challenge-summary)
