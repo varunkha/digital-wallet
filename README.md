@@ -1,4 +1,5 @@
-How to run:
+
+# How to run:
 
 1. Download the code and go to the main code directory.
 2. Type "./run.sh" in Terminal
